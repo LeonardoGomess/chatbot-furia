@@ -1,0 +1,149 @@
+[
+  {
+    "name": "yuurih",
+    "stats": {
+      "kills": 26322,
+      "headshots": 44.6,
+      "deaths": 22696,
+      "kdRatio": 1.16,
+      "damagePerRound": 82.8,
+      "grenadeDamagePerRound": 5,
+      "mapsPlayed": 1411,
+      "roundsPlayed": 35739,
+      "killsPerRound": 0.74,
+      "assistsPerRound": 0.16,
+      "deathsPerRound": 0.64,
+      "savedByTeammatePerRound": 0.09,
+      "savedTeammatesPerRound": 0.11,
+      "rating2": 1.16
+    }
+  },
+  {
+    "name": "KSCERATO",
+    "stats": {
+      "kills": 24346,
+      "headshots": 49.7,
+      "deaths": 19411,
+      "kdRatio": 1.25,
+      "damagePerRound": 79.9,
+      "grenadeDamagePerRound": 5.9,
+      "mapsPlayed": 1318,
+      "roundsPlayed": 33242,
+      "killsPerRound": 0.73,
+      "assistsPerRound": 0.14,
+      "deathsPerRound": 0.58,
+      "savedByTeammatePerRound": 0.08,
+      "savedTeammatesPerRound": 0.1,
+      "rating2": 1.19
+    }
+  },
+  {
+    "name": "FalleN",
+    "stats": {
+      "kills": 35036,
+      "headshots": 31.2,
+      "deaths": 31013,
+      "kdRatio": 1.13,
+      "damagePerRound": 70.5,
+      "grenadeDamagePerRound": 3.4,
+      "mapsPlayed": 1995,
+      "roundsPlayed": 51184,
+      "killsPerRound": 0.68,
+      "assistsPerRound": 0.1,
+      "deathsPerRound": 0.61,
+      "savedByTeammatePerRound": 0.09,
+      "savedTeammatesPerRound": 0.08,
+      "rating1": 1.05
+    }
+  },
+  {
+    "name": "molodoy",
+    "stats": {
+      "kills": 2582,
+      "headshots": 35.9,
+      "deaths": 1908,
+      "kdRatio": 1.35,
+      "damagePerRound": 81,
+      "grenadeDamagePerRound": 1.9,
+      "mapsPlayed": 148,
+      "roundsPlayed": 3194,
+      "killsPerRound": 0.81,
+      "assistsPerRound": 0.11,
+      "deathsPerRound": 0.6,
+      "savedByTeammatePerRound": 0.07,
+      "savedTeammatesPerRound": 0.08
+    }
+  },
+  {
+    "name": "YEKINDAR",
+    "stats": {
+      "kills": 28269,
+      "headshots": 59,
+      "deaths": 26878,
+      "kdRatio": 1.05,
+      "damagePerRound": 81.4,
+      "grenadeDamagePerRound": 4.2,
+      "mapsPlayed": 1489,
+      "roundsPlayed": 38731,
+      "killsPerRound": 0.73,
+      "assistsPerRound": 0.14,
+      "deathsPerRound": 0.69,
+      "savedByTeammatePerRound": 0.09,
+      "savedTeammatesPerRound": 0.08,
+      "rating2": 1.12
+    }
+  },
+  {
+    "name": "chelo",
+    "stats": {
+      "kills": 23216,
+      "headshots": 60.5,
+      "deaths": 22123,
+      "kdRatio": 1.05,
+      "damagePerRound": 75.8,
+      "grenadeDamagePerRound": 3.5,
+      "mapsPlayed": 1328,
+      "roundsPlayed": 33437,
+      "killsPerRound": 0.69,
+      "assistsPerRound": 0.14,
+      "deathsPerRound": 0.66,
+      "savedByTeammatePerRound": 0.1,
+      "savedTeammatesPerRound": 0.1,
+      "rating1": 1.03
+    }
+  },
+  {
+    "name": "skullz",
+    "stats": {
+      "kills": 14924,
+      "headshots": 54.5,
+      "deaths": 13733,
+      "kdRatio": 1.09,
+      "damagePerRound": 74.3,
+      "grenadeDamagePerRound": 4.2,
+      "mapsPlayed": 863,
+      "roundsPlayed": 21809,
+      "killsPerRound": 0.68,
+      "assistsPerRound": 0.14,
+      "deathsPerRound": 0.63,
+      "savedByTeammatePerRound": 0.1,
+      "savedTeammatesPerRound": 0.11,
+      "rating2": 1.09
+    }
+  },
+  {
+    "name": "sidde",
+    "stats": {
+      "kills": 0,
+      "headshots": 0,
+      "deaths": 0,
+      "kdRatio": 0,
+      "mapsPlayed": 0,
+      "roundsPlayed": 0,
+      "killsPerRound": 0,
+      "assistsPerRound": 0,
+      "deathsPerRound": 0,
+      "rating1": 0
+    }
+  }
+]

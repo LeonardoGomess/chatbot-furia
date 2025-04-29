@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EuroTalk</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="https://eurofarma.com.br/favicon.png">
+</head>
+
+
+
+<body>
+
+ <button id="menuLateralToggle" class="">☰</button>
+
+<div id="menuLateral" class="closed">
+    <div class="pilulas">
+        <h1 class="orbitron-uniquifier">Pílulas Compliance</h1>
+      
+        <div class="card-deck">
+            <div class="card">
+                <a href="https://eurofarma.com.br/artigos" class="card-link" target="_blank">Acesse todas as Pílulas</a>
+            </div>
+            <div class="card">
+                <a href="https://eurofarma.com.br/governanca-corporativa" class="card-link" target="_blank">Governança Corporativa</a>
+            </div>
+            <div class="card">
+                <a href="https://eurofarma.com.br/artigos/voce-sabe-o-que-e-amamentacao-cruzada" class="card-link" target="_blank">Compliance</a>
+            </div>
+            <div class="card">
+                <a href="https://eurofarma.com.br/papo-de-farmacia/mes-do-cliente-estrategia-para-aumentar-vendas" class="card-link" target="_blank">Ética Empresarial</a>
+            </div>
+            <div class="card">
+                <a href="https://eurofarma.com.br/papo-de-farmacia/guia-rapido-da-intercambialidade-de-medicamentos" class="card-link" target="_blank">Conformidade Regulatória</a>
+            </div>
+            <div class="card">
+                <a href="https://eurofarma.com.br/artigos/problemas-respiratorios-no-clima-seco" class="card-link" target="_blank">Auditoria Ética</a>
+            </div>
+        </div>
+
+        
+        <div class="select-container">
+            <label for="pdfSelect">Lista de manuais Eurofarma Compliace.<br>Selecione um PDF:</label>
+            <br>
+            <select id="pdfSelect">
+                <option value="" selected disabled>Selecione um PDF</option>
+                <option value="../static/pdf1.pdf">Código de ética e conduta do fornecedor</option>
+                <option value="../static/pdf2.pdf">Código de conduta Conduta</option>
+            </select>
+            <br>
+            <button id="downloadPdfBtn">Download</button>
+        </div>
+    </div>
+</div>
+<!-- <a href="Curriculo/curriculo-Vitor-2023.pdf" download="curriculo-Vitor-2023.pdf" type="application/pdf" -->
+
+
+   
+    
+
+    <main id="main-content">
+
+        <div class="modal" id="modal1">
+            <div class="modal-content">
+                <div class="header">
+                    <h1>Como usar o EuroTalk ?</h1>
+                    <img src="eva_capa.png">
+                </div>
+                <div class="message">
+                    <p>📝 Seja Claro e Específico Faça perguntas diretas para obter respostas precisas. Exemplo: "Quais são as políticas de privacidade da empresa?"</p>
+                    <p>🔍 Use Palavras-chave Relevantes Inclua termos específicos relacionados à sua dúvida. Exemplo: "Requisitos de segurança para dados de clientes."</p>
+                    <p>💬 Peça Mais Detalhes Se precisar de mais informações, peça detalhes adicionais. Exemplo: "Pode me explicar mais sobre dar presentes ou brindes?"</p>
+                    <p>🔄 Faça uma Pergunta por Vez Para respostas mais claras, pergunte uma coisa de cada vez.</p>
+                </div>
+                <button class="start-button" id="to-modal2">Entendi, Vamos Lá !</button>
+            </div>
+        </div>
+
+        <div class="modal" id="modal2">
+            <div class="modal-content">
+                <div class="header">
+                    <h1>EuroTalk</h1>
+                    <img src="eva_capa.png">
+                </div>
+                <div class="message">
+                    <p>👋 Olá! Seja bem-vindo ao Compliance Conectado! </p>
+                    <p>🤖 Estou aqui para ajudar você a navegar pelo mundo da conformidade e ética empresarial de uma maneira leve e divertida.</p>
+                    <p>🌐 Objetivo: Quer saber mais sobre o que é compliance e por que é importante?</p>
+                    <p>📚 Treinamentos: Está procurando por treinamentos e recursos de compliance?</p>
+                    <p>✉️ Denúncias: Precisa saber como fazer uma denúncia de forma segura e anônima?</p>
+                    <p>❓ Dúvidas: Tem alguma dúvida específica sobre nossas políticas de compliance?</p>
+                </div>
+                <button class="back-button" id="back-to-modal1">Como usar o EuroTalk ?</button>
+            </div>
+        </div>
+
+        <div id="top-bar">
+            <!-- <div id="dropdown-container">
+                <select class="" id="language-select">
+                    <option value="" disabled selected></option>
+                   
+                </select>
+            </div> -->
+            <div id="select_language"></div>
+            <button id="help-button" class="help-button">Ajuda ?</button >
+        </div>
+        
+        <div class="title-section">
+            <h1 class="orbitron-uniquifier">Euro<span class="neon-text">Talk</span></h1>
+            <img src="eva_capa.png" alt="" id="imgtitle">
+        </div>
+        
+        <hr class="divider">
+
+</div>
+</div>
+
+
+        <div id="chatbox">
+
+<div id="frequent-questions">
+
+    
+    <h2>Dúvidas Frequentes:</h2>
+    <div class="frequent-questions">
+        <button class="question-btn" data-question="Quais são as políticas de privacidade da empresa?">Sobre Política de Privacidade </button>
+        <button class="question-btn" data-question="Requisitos de segurança para dados de clientes.">Sobre Segurança de Dados</button>
+        <button class="question-btn" data-question="Dentro da EuroFarma, eu posso dar presentes ou brindes para os funcionários ou colegas de trabalho?"> Sobre Presentes e Brindes</button>
+    </div>
+    
+    <div class="frequent-questions">
+        <button class="question-btn" data-question="Quais são os critérios para seleção de fornecedores?">Sobre Seleção de Fornecedores</button>
+        <button class="question-btn" data-question="Como posso relatar um problema ético?">Sobre Relato de Problemas Éticos</button>
+        <button class="question-btn" data-question="Como posso fazer denuncias?">Como fazer Denuncias</button>
+    </div>
+    
+</div>
+
+
+
+            <div id="messages">
+                <!-- As mensagens serão inseridas aqui -->
+            </div>
+            <form id="chat-form">
+                <input type="text" id="message" placeholder="Digite sua pergunta aqui...">
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+    
+
+    <script src="script.js"></script>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'pt',
+            includedLanguages: 'en,es,pt',
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+        }, 'select_language');
+    }
+</script>
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+</body>

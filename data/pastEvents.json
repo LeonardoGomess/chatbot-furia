@@ -1,0 +1,379 @@
+[
+  {
+    "id": 8044,
+    "name": "PGL Bucharest 2025",
+    "type": "INTLLAN",
+    "dateStart": 1743933600000,
+    "dateEnd": 1744538400000,
+    "location": {
+      "name": "Bucharest, Romania",
+      "code": "RO"
+    },
+    "prizePool": "$1,250,000",
+    "numberOfTeams": 16
+  },
+  {
+    "id": 7904,
+    "name": "BLAST Open Lisbon 2025",
+    "type": "INTLLAN",
+    "dateStart": 1742382000000,
+    "dateEnd": 1743332400000,
+    "location": {
+      "name": "CPH, DK & Lisbon, PT",
+      "code": "EU"
+    },
+    "prizePool": "$400,000",
+    "numberOfTeams": 16
+  },
+  {
+    "id": 8292,
+    "name": "ESL Pro League Season 21",
+    "type": "INTLLAN",
+    "dateStart": 1741345200000,
+    "dateEnd": 1742122800000,
+    "location": {
+      "name": "Stockholm, Sweden",
+      "code": "SE"
+    },
+    "prizePool": "$1,000,000",
+    "numberOfTeams": 16
+  },
+  {
+    "id": 8035,
+    "name": "ESL Pro League Season 21 Stage 1",
+    "type": "INTLLAN",
+    "dateStart": 1740826800000,
+    "dateEnd": 1741172400000,
+    "location": {
+      "name": "Stockholm, Sweden",
+      "code": "SE"
+    },
+    "prizePool": "Other",
+    "numberOfTeams": 16
+  },
+  {
+    "id": 8034,
+    "name": "IEM Katowice 2025",
+    "type": "INTLLAN",
+    "dateStart": 1738407600000,
+    "dateEnd": 1739098800000,
+    "location": {
+      "name": "Katowice, Poland",
+      "code": "PL"
+    },
+    "prizePool": "$1,250,000",
+    "numberOfTeams": 16
+  },
+  {
+    "id": 8229,
+    "name": "IEM Katowice 2025 Play-in",
+    "type": "INTLLAN",
+    "dateStart": 1738148400000,
+    "dateEnd": 1738321200000,
+    "location": {
+      "name": "Katowice, Poland",
+      "code": "PL"
+    },
+    "prizePool": "Other",
+    "numberOfTeams": 16
+  },
+  {
+    "id": 7903,
+    "name": "BLAST Bounty 2025 Season 1",
+    "type": "ONLINE",
+    "dateStart": 1736852400000,
+    "dateEnd": 1737284400000,
+    "location": {
+      "name": "Europe (Online)",
+      "code": "EU"
+    },
+    "prizePool": "Other",
+    "numberOfTeams": 32
+  },
+  {
+    "id": 7524,
+    "name": "Perfect World Shanghai Major 2024",
+    "type": "MAJOR",
+    "dateStart": 1733396400000,
+    "dateEnd": 1734260400000,
+    "location": {
+      "name": "Shanghai, China",
+      "code": "CN"
+    },
+    "prizePool": "$1,250,000",
+    "numberOfTeams": 16
+  },
+  {
+    "id": 7861,
+    "name": "Perfect World Shanghai Major 2024 Opening Stage",
+    "type": "MAJOR",
+    "dateStart": 1732964400000,
+    "dateEnd": 1733223600000,
+    "location": {
+      "name": "Shanghai, China",
+      "code": "CN"
+    },
+    "prizePool": "Other",
+    "numberOfTeams": 16
+  },
+  {
+    "id": 7863,
+    "name": "Perfect World Shanghai Major 2024 Americas RMR",
+    "type": "INTLLAN",
+    "dateStart": 1731409200000,
+    "dateEnd": 1731668400000,
+    "location": {
+      "name": "Shanghai, China",
+      "code": "CN"
+    },
+    "prizePool": "Other",
+    "numberOfTeams": 16
+  },
+  {
+    "id": 7439,
+    "name": "IEM Rio 2024",
+    "type": "INTLLAN",
+    "dateStart": 1728295200000,
+    "dateEnd": 1728813600000,
+    "location": {
+      "name": "Rio de Janeiro, Brazil",
+      "code": "BR"
+    },
+    "prizePool": "$250,000",
+    "numberOfTeams": 16
+  },
+  {
+    "id": 7441,
+    "name": "ESL Pro League Season 20",
+    "type": "INTLLAN",
+    "dateStart": 1725357600000,
+    "dateEnd": 1726999200000,
+    "location": {
+      "name": "Malta",
+      "code": "MT"
+    },
+    "prizePool": "$750,000",
+    "numberOfTeams": 32
+  },
+  {
+    "id": 7993,
+    "name": "BetBoom Dacha Belgrade Season 2",
+    "type": "INTLLAN",
+    "dateStart": 1724839200000,
+    "dateEnd": 1725184800000,
+    "location": {
+      "name": "Belgrade, Serbia",
+      "code": "RS"
+    },
+    "prizePool": "$500,000",
+    "numberOfTeams": 8
+  },
+  {
+    "id": 8005,
+    "name": "BetBoom Dacha Belgrade Season 2 Play-in",
+    "type": "INTLLAN",
+    "dateStart": 1724493600000,
+    "dateEnd": 1724752800000,
+    "location": {
+      "name": "Belgrade, Serbia",
+      "code": "RS"
+    },
+    "prizePool": "Other",
+    "numberOfTeams": 8
+  },
+  {
+    "id": 7436,
+    "name": "IEM Cologne 2024",
+    "type": "INTLLAN",
+    "dateStart": 1723284000000,
+    "dateEnd": 1723975200000,
+    "location": {
+      "name": "Cologne, Germany",
+      "code": "DE"
+    },
+    "prizePool": "$1,000,000",
+    "numberOfTeams": 16
+  },
+  {
+    "id": 7675,
+    "name": "IEM Cologne 2024 Play-in",
+    "type": "INTLLAN",
+    "dateStart": 1723024800000,
+    "dateEnd": 1723197600000,
+    "location": {
+      "name": "Cologne, Germany",
+      "code": "DE"
+    },
+    "prizePool": "Other",
+    "numberOfTeams": 16
+  },
+  {
+    "id": 7732,
+    "name": "Esports World Cup 2024",
+    "type": "INTLLAN",
+    "dateStart": 1721210400000,
+    "dateEnd": 1721556000000,
+    "location": {
+      "name": "Riyadh, Saudi Arabia",
+      "code": "SA"
+    },
+    "prizePool": "$1,000,000",
+    "numberOfTeams": 15
+  },
+  {
+    "id": 7475,
+    "name": "YaLLa Compass 2024",
+    "type": "INTLLAN",
+    "dateStart": 1717581600000,
+    "dateEnd": 1717927200000,
+    "location": {
+      "name": "Abu Dhabi, UAE",
+      "code": "AE"
+    },
+    "prizePool": "$400,000",
+    "numberOfTeams": 12
+  },
+  {
+    "id": 7837,
+    "name": "CCT Season 2 Europe Series 4",
+    "type": "ONLINE",
+    "dateStart": 1716199200000,
+    "dateEnd": 1717322400000,
+    "location": {
+      "name": "Europe (Online)",
+      "code": "EU"
+    },
+    "prizePool": "$50,000",
+    "numberOfTeams": 22
+  },
+  {
+    "id": 7816,
+    "name": "CCT Season 2 Europe Series 3",
+    "type": "ONLINE",
+    "dateStart": 1715594400000,
+    "dateEnd": 1716717600000,
+    "location": {
+      "name": "Europe (Online)",
+      "code": "EU"
+    },
+    "prizePool": "$50,000",
+    "numberOfTeams": 24
+  },
+  {
+    "id": 7440,
+    "name": "ESL Pro League Season 19",
+    "type": "INTLLAN",
+    "dateStart": 1713866400000,
+    "dateEnd": 1715508000000,
+    "location": {
+      "name": "Malta",
+      "code": "MT"
+    },
+    "prizePool": "$750,000",
+    "numberOfTeams": 32
+  },
+  {
+    "id": 7742,
+    "name": "Global Esports Tour Rio 2024",
+    "type": "INTLLAN",
+    "dateStart": 1713434400000,
+    "dateEnd": 1713607200000,
+    "location": {
+      "name": "Rio de Janeiro, Brazil",
+      "code": "BR"
+    },
+    "prizePool": "$200,000",
+    "numberOfTeams": 8
+  },
+  {
+    "id": 7437,
+    "name": "IEM Chengdu 2024",
+    "type": "INTLLAN",
+    "dateStart": 1712570400000,
+    "dateEnd": 1713088800000,
+    "location": {
+      "name": "Chengdu, China",
+      "code": "CN"
+    },
+    "prizePool": "$250,000",
+    "numberOfTeams": 16
+  },
+  {
+    "id": 7148,
+    "name": "PGL CS2 Major Copenhagen 2024",
+    "type": "MAJOR",
+    "dateStart": 1711018800000,
+    "dateEnd": 1711882800000,
+    "location": {
+      "name": "Copenhagen, Denmark",
+      "code": "DK"
+    },
+    "prizePool": "$1,250,000",
+    "numberOfTeams": 16
+  },
+  {
+    "id": 7258,
+    "name": "PGL CS2 Major Copenhagen 2024 Opening Stage",
+    "type": "MAJOR",
+    "dateStart": 1710673200000,
+    "dateEnd": 1710932400000,
+    "location": {
+      "name": "Copenhagen, Denmark",
+      "code": "DK"
+    },
+    "prizePool": "Other",
+    "numberOfTeams": 16
+  },
+  {
+    "id": 7261,
+    "name": "PGL CS2 Major Copenhagen 2024 Americas RMR",
+    "type": "INTLLAN",
+    "dateStart": 1709290800000,
+    "dateEnd": 1709550000000,
+    "location": {
+      "name": "Monterrey, Mexico",
+      "code": "MX"
+    },
+    "prizePool": "Other",
+    "numberOfTeams": 16
+  },
+  {
+    "id": 7645,
+    "name": "IEM Dallas 2024 South America Closed Qualifier",
+    "type": "ONLINE",
+    "dateStart": 1708599600000,
+    "dateEnd": 1708686000000,
+    "location": {
+      "name": "South America (Online)",
+      "code": "SAM"
+    },
+    "prizePool": "Other",
+    "numberOfTeams": 4
+  },
+  {
+    "id": 7682,
+    "name": "RES Western European Masters Spring 2024 - BLAST Premier Qualifier",
+    "type": "ONLINE",
+    "dateStart": 1707476400000,
+    "dateEnd": 1707649200000,
+    "location": {
+      "name": "Europe (Online)",
+      "code": "EU"
+    },
+    "prizePool": "Other",
+    "numberOfTeams": 8
+  },
+  {
+    "id": 7551,
+    "name": "IEM Katowice 2024 Play-in",
+    "type": "INTLLAN",
+    "dateStart": 1706698800000,
+    "dateEnd": 1706871600000,
+    "location": {
+      "name": "Katowice, Poland",
+      "code": "PL"
+    },
+    "prizePool": "Other",
+    "numberOfTeams": 16
+  }
+]

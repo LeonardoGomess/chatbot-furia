@@ -1,0 +1,41 @@
+[
+  {
+    "id": 8045,
+    "name": "PGL Astana 2025",
+    "dateStart": 1746871200000,
+    "dateEnd": 1747562400000,
+    "location": {
+      "name": "Astana, Kazakhstan",
+      "code": "KZ"
+    },
+    "prizePool": "$1,250,000",
+    "numberOfTeams": 16,
+    "featured": true
+  },
+  {
+    "id": 8037,
+    "name": "IEM Dallas 2025",
+    "dateStart": 1747648800000,
+    "dateEnd": 1748167200000,
+    "location": {
+      "name": "Dallas, TX, US",
+      "code": "US"
+    },
+    "prizePool": "$1,000,000",
+    "numberOfTeams": 16,
+    "featured": true
+  },
+  {
+    "id": 8437,
+    "name": "BLAST.tv Austin Major 2025 Stage 2",
+    "dateStart": 1749290400000,
+    "dateEnd": 1749549600000,
+    "location": {
+      "name": "Austin, TX, US",
+      "code": "US"
+    },
+    "prizePool": "Other",
+    "numberOfTeams": 16,
+    "featured": true
+  }
+]
