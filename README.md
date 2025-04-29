@@ -80,16 +80,9 @@ Acesse em: [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 🧪 Melhorias Possíveis
 
-- Cache local dos dados mais recentes
-- Integração com a HLTV API para dados em tempo real
-- Logs persistentes para análise de conversas
-- Autenticação de administrador para atualizar os dados
 
----
-
-## 👨‍💻 Autor
+## 👨‍💻 Autor - Leonardo Gomes
 
 Desenvolvido como parte de um **processo seletivo técnico** para avaliação de habilidades com:
 
@@ -101,10 +94,5 @@ Desenvolvido como parte de um **processo seletivo técnico** para avaliação de
 
 ---
 
-## 📢 Observações Finais
-
-> Este projeto foi elaborado com fins avaliativos e não representa oficialmente a marca FURIA Esports. Todos os dados utilizados são fictícios ou simulados por meio de arquivos JSON locais.
-
----
 
 ## 🐾 Vai FURIA! #DaleFuria #FURIAEsports
