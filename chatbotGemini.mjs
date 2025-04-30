@@ -1,12 +1,18 @@
+import dotenv from 'dotenv';
+dotenv.config(); 
+
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import fs from 'fs/promises';
 import path from 'path';
 
-const API_KEY = "AIzaSyCxYXHtobbU5sHXW_cq_wyXGaWifyPrwW8"
-if (!API_KEY) throw new Error('A chave de API não está configurada.');
+
+const API_KEY = process.env.GENAI_API_KEY;
+console.log('API_KEY:', API_KEY);  
+if (!API_KEY) {
+  throw new Error('A chave de API não está configurada.');
+}
 
 const genAI = new GoogleGenerativeAI(API_KEY);
-
 const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
 
 const systemPrompt = `
