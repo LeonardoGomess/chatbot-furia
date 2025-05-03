@@ -92,3 +92,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
     observer.observe(chatbox, { childList: true });
 });
+
+const openBtn = document.getElementById('open-modal');
+const closeBtn = document.getElementById('close-modal');
+const overlay = document.getElementById('modal-overlay');
+
+openBtn.addEventListener('click', (e) => {
+  e.preventDefault(); // impede recarregamento da página
+  overlay.style.display = 'flex';
+});
+closeBtn.addEventListener('click', () => overlay.style.display = 'none');
+overlay.addEventListener('click', e => {
+  if (e.target === overlay) overlay.style.display = 'none';
+});
