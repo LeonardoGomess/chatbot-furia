@@ -5,13 +5,8 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 import fs from 'fs/promises';
 import path from 'path';
 
-
 const API_KEY = process.env.GENAI_API_KEY;
-<<<<<<< HEAD
 
-=======
-console.log('API_KEY:', API_KEY);  
->>>>>>> ad1c03edd676b5805dd8b5c4354ac5baa7917e9a
 if (!API_KEY) {
   throw new Error('A chave de API não está configurada.');
 }
