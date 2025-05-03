@@ -4,6 +4,8 @@ Este é um chatbot inteligente desenvolvido como parte de um desafio técnico pa
 
 As informações utilizadas pelo chatbot são obtidas a partir de uma API externa do site HLTV.org da comunidade, especializada em eSports, e convertidas previamente para arquivos .json, que são lidos localmente para compor as respostas com mais rapidez e confiabilidade.
 
+Link para o site : https://chatbot-furia-s3un.onrender.com/index.html
+
 ---
 
 ## 🧠 Objetivo do Desafio
