@@ -44,22 +44,31 @@ async function getTeamStats() {
         console.error("❌ Erro ao obter estatísticas do time:", error.message);
     }
 }
-
 async function getMatches() {
     try {
-        const matches = await HLTV.getMatches();
-        const furiaMatches = matches.filter(match => match.team1?.id === 8297 || match.team2?.id === 8297);
+        const delayTime = 1000; // Delay de 1 segundo entre requisições
+
+        // Obtendo a lista de todas as partidas
+        const allMatches = await HLTV.getMatches();
+
+        // Filtrando partidas da FURIA (id 8297)
+        const furiaMatches = allMatches.filter(match => match.team1?.id === 8297 || match.team2?.id === 8297);
 
         console.log("\n=== 🎯 Próximas Partidas da FURIA ===");
         furiaMatches.forEach(match => {
             console.log(` - ${match.team1?.name} vs ${match.team2?.name} em ${match.event?.name}`);
         });
 
-        await saveJson('matches', furiaMatches);
+        // Salvando as partidas da FURIA em um arquivo JSON
+        await saveJson('furia_matches', furiaMatches);
+
+      
     } catch (error) {
-        console.error("❌ Erro ao obter próximas partidas:", error.message);
+        console.error("❌ Erro ao obter partidas:", error.message);
     }
 }
+
+
 
 async function getEvents() {
     try {
