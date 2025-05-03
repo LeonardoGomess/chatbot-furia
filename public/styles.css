@@ -400,4 +400,96 @@ section {
   margin-top: 10px;
 }
 
+.modal-overlay {
+  display: none; /* Escondido por padrão */
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.7);  /* Fundo escuro mais suave */
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
 
+.modal {
+  background: linear-gradient(145deg, #2c2c2c, #000);  /* Gradiente de fundo mais sofisticado */
+  color: #fff;  /* Texto branco */
+  padding: 20px;
+  border-radius: 15px;  /* Bordas mais arredondadas */
+  max-width: 550px;
+  width: 90%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);  /* Sombra suave para o modal */
+  position: relative;
+}
+
+.modal h2 {
+  font-size: 24px;
+  color: #ffcc00;  /* Título amarelo */
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.modal ul {
+  list-style-type: none;
+  padding-left: 20px;
+  line-height: 1.6;
+}
+
+.modal ul li {
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.modal ul li strong {
+  font-size: 20px;
+  color: #ffcc00;  /* Destaque para os exemplos */
+}
+
+.modal ul li:nth-child(odd) {
+  background-color: rgba(255, 255, 255, 0.1); /* Fundo suave nas linhas ímpares */
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;  /* Canto superior direito */
+  font-size: 28px;
+  color: #ffcc00;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.close-btn:hover {
+  color: #fff;  /* Cor de fechamento quando passa o mouse */
+  transform: rotate(90deg);  /* Efeito de rotação suave */
+}
+
+.chatbot-header .help {
+  position: absolute;
+  top: 20px;
+  right: 20px;  /* Canto superior direito */
+  color: #ffcc00;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid #ffcc00;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.chatbot-header .help:hover {
+  background-color: #ffcc00;
+  color: #000;
+  transform: scale(1.1);  /* Aumento suave no botão */
+}
+
+h3 {
+  color: #ffcc00;  /* Cor do título das sugestões */
+  font-size: 22px;
+  margin-top: 20px;
+  text-align: center;
+}
