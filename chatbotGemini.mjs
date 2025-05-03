@@ -1,12 +1,11 @@
 import dotenv from 'dotenv';
-dotenv.config(); 
+dotenv.config();
 
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import fs from 'fs/promises';
 import path from 'path';
 
 const API_KEY = process.env.GENAI_API_KEY;
-
 if (!API_KEY) {
   throw new Error('A chave de API não está configurada.');
 }
@@ -17,41 +16,27 @@ const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
 const systemPrompt = `
 Você é o ChatBot Oficial dos Fãs da FURIA Esports (CS2).
 Função:
+- Verificar todos os json disponíveis na pasta data.
+- Responder perguntas sobre a FURIA, incluindo estatísticas, resultados, eventos e jogadores.
 - Atualizar com notícias, estatísticas, resultados ao vivo e eventos da FURIA.
 - Fornecer sempre informações atualizadas.
 - Responder com paixão, energia e orgulho da torcida.
 - Quando não souber uma resposta, peça desculpas e incentive o usuário a seguir a FURIA nas redes sociais.
-- Sempre cite a fonte da informação coletada (HLTV.org).
 - Não inventar dados.
 - Mensagens de boas-vindas ou agradecimentos devem ser calorosas.
 - Não usar ids de jogadores ou times nas respostas, apenas nomes e nicks.
 `;
 
-const keywordToJsonMap = {
-  "estatísticas": ["teamStats.json", "playerStats.json"],
-  "resultados": ["teamStats.json"],
-  "eventos": ["events.json", "pastEvents.json"],
-  "jogadores": ["playerStats.json"],
-  "times": ["teamInfo.json"],
-  "ranking": ["teamRanking.json"]
-};
+function delay(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
 
-async function loadJsonFiles(prompt) {
+async function loadJsonFiles() {
   const dataDir = path.join(process.cwd(), 'data');
   try {
-    const relevantFiles = new Set();
-    for (const [keyword, files] of Object.entries(keywordToJsonMap)) {
-      if (prompt.toLowerCase().includes(keyword)) {
-        files.forEach(file => relevantFiles.add(file));
-      }
-    }
-
-    const filesToLoad = relevantFiles.size > 0
-      ? Array.from(relevantFiles)
-      : (await fs.readdir(dataDir)).filter(f => f.endsWith('.json'));
-
+    const files = (await fs.readdir(dataDir)).filter(f => f.endsWith('.json'));
     const data = {};
-    for (const file of filesToLoad) {
+    for (const file of files) {
       const content = await fs.readFile(path.join(dataDir, file), 'utf-8');
       data[file] = JSON.parse(content);
     }
@@ -64,14 +49,19 @@ async function loadJsonFiles(prompt) {
 
 export async function gerarResposta(prompt, contexto = [], retries = 3) {
   try {
-    const dados = await loadJsonFiles(prompt);
+    const dados = await loadJsonFiles();
+    if (!Object.keys(dados).length) {
+      console.log('Nenhuma informação encontrada nos arquivos JSON.');
+    }
 
-    const resumoDados = Object.entries(dados).map(([nome, conteudo]) => {
-      return `Arquivo: ${nome}\nResumo:
-` + JSON.stringify(conteudo).slice(0, 1000); // ✅ Resumo limitado
-    }).join('\n\n');
+    // Gera um resumo bruto de cada JSON
+    const resumoDados = Object.entries(dados)
+      .map(([nome, conteudo]) => {
+        return `Arquivo: ${nome}\nConteúdo: ${JSON.stringify(conteudo)}`;
+      })
+      .join('\n\n');
 
-    const historico = contexto.length ? contexto.join('\n') : "Nenhuma conversa anterior.";
+    const historico = contexto.length ? contexto.join('\n') : 'Nenhuma conversa anterior.';
 
     const fullPrompt = `${systemPrompt}\n\nDados:\n${resumoDados}\n\nHistórico:\n${historico}\n\nPergunta:\n${prompt}`;
 
@@ -80,12 +70,9 @@ export async function gerarResposta(prompt, contexto = [], retries = 3) {
   } catch (error) {
     console.error('Erro ao gerar resposta:', error.message);
     if (error.message.includes('503') && retries > 0) {
-      await new Promise(r => setTimeout(r, 2000));
+      await delay(2000);
       return gerarResposta(prompt, contexto, retries - 1);
     }
     return 'Desculpe, ocorreu um problema. Tente novamente mais tarde.';
   }
 }
-
-
-
