@@ -95,6 +95,12 @@ Desenvolvido como parte de um **processo seletivo técnico** para avaliação de
 - Experiência do usuário (UX)
 
 ---
+📸 Ilustrações do Site
 
+![Image](https://github.com/user-attachments/assets/a94c7b14-4dfa-4ab7-9a25-4652baec31ec)
+
+![Image](https://github.com/user-attachments/assets/b2d36a43-2448-4b8e-b7af-f903f91bd39b)
+
+![Image](https://github.com/user-attachments/assets/69ff974a-858e-4286-b785-09dcc2e5121e)
 
 ## 🐾 Vai FURIA! #DaleFuria #FURIAEsports
