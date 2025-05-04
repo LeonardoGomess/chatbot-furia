@@ -12,11 +12,8 @@ Link para o site : https://chatbot-furia-s3un.onrender.com/index.html
 
 Criar um chatbot funcional e interativo com as seguintes capacidades:
 
-- ⚡ Utilizar a API **Google Gemini (1.5 Flash)** para gerar respostas em linguagem natural.
-- 📚 Buscar e interpretar dados de arquivos locais `.json` como fonte de conhecimento.
-- 🧾 Manter um **contexto de conversa** com o usuário (memória curta).
-- 🕐 Responder com **rapidez**, **precisão** e **personalidade de marca** (tom esportivo, apaixonado).
-- 💡 Lidar com erros e indisponibilidades da API de forma amigável.
+- ⚡ Desenvolver um caso de uso conversacional relacionado à FURIA (Telegram, web chat ou mobile chat)
+- 📚 Crie um chat para os fãs do time de CS da FURIA. O Chat deve conter tudo que você, como fã, gostaria de ver para acompanhar e interagir com o time
 
 ---
 
@@ -27,7 +24,7 @@ Criar um chatbot funcional e interativo com as seguintes capacidades:
 - **ES Modules (.mjs)** — Estrutura moderna de importação
 - **HTML + CSS + JS** — Front-end simples e responsivo
 - **Fetch API com timeout** — Controle de falhas em tempo real
-- **Arquivos JSON** — Base de conhecimento simulada (em `./data`)
+- **Arquivos JSON** — Base de conhecimento simulada.
 
 ---
 
