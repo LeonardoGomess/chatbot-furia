@@ -1,6 +1,6 @@
 ﻿# 🤖 Chatbot FURIA Esports — Desafio Técnico
 
-Este é um chatbot inteligente desenvolvido como parte de um desafio técnico para um processo seletivo da FURIA. O objetivo principal é simular um assistente virtual apaixonado pelos times de CS2 da FURIA Esports, capaz de responder perguntas sobre resultados, estatísticas, rankings, eventos e jogadores — com base em arquivos locais .json.
+Este é um chatbot inteligente desenvolvido como parte de um desafio técnico para um processo seletivo da FURIA. O objetivo principal é simular um assistente virtual apaixonado pelos times de CS2 da FURIA Esports, capaz de responder perguntas sobre resultados, estatísticas, rankings, eventos e jogadores.
 
 As informações utilizadas pelo chatbot são obtidas a partir de uma API externa do site HLTV.org da comunidade, especializada em eSports, e convertidas previamente para arquivos .json, que são lidos localmente para compor as respostas com mais rapidez e confiabilidade.
 
