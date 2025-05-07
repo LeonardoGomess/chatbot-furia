@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
 });
 
 let contexto = [];
-const cache = new Map(); // ✅ Cache simples por prompt
+const cache = new Map(); 
 
 app.post('/chat', async (req, res) => {
   const userMessage = req.body.message;
